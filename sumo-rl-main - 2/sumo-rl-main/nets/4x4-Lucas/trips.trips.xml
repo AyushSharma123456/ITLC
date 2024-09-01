@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-01-10 11:56:05.800874 by randomTrips.py v1_18_0+0000-03ecfdea036
+<configuration>
+    <net-file value="4x4.net.xml"/>
+    <route-file value="map300.rou.xml"/>
+    <length value="True"/>
+    <validate value="True"/>
+    <end value="300.0"/>
+</configuration>
+-->
+
+<!-- generated on 2024-01-10 11:56:05 by Eclipse SUMO duarouter Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="4x4.net.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="trips.trips.xml.tmp"/>
+        <alternatives-output value="NUL"/>
+        <write-trips value="true"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="300.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <trip id="1" depart="1.00" from="16to0" to="12to24"/>
+    <trip id="11" depart="11.00" from="18to2" to="11to30"/>
+    <trip id="12" depart="12.00" from="9to10" to="14to15"/>
+    <trip id="26" depart="26.00" from="16to0" to="8to9"/>
+    <trip id="27" depart="27.00" from="3to7" to="3to7"/>
+    <trip id="29" depart="29.00" from="12to13" to="15to27"/>
+    <trip id="36" depart="36.00" from="8to12" to="14to15"/>
+    <trip id="37" depart="37.00" from="3to7" to="15to27"/>
+    <trip id="39" depart="39.00" from="16to0" to="12to24"/>
+    <trip id="40" depart="40.00" from="23to12" to="13to14"/>
+    <trip id="46" depart="46.00" from="6to10" to="15to31"/>
+    <trip id="47" depart="47.00" from="10to11" to="15to27"/>
+    <trip id="50" depart="50.00" from="0to1" to="5to9"/>
+    <trip id="52" depart="52.00" from="16to0" to="4to5"/>
+    <trip id="53" depart="53.00" from="10to14" to="15to31"/>
+    <trip id="54" depart="54.00" from="20to0" to="9to10"/>
+    <trip id="56" depart="56.00" from="21to4" to="11to30"/>
+    <trip id="59" depart="59.00" from="2to6" to="11to15"/>
+    <trip id="62" depart="62.00" from="0to1" to="14to15"/>
+    <trip id="69" depart="69.00" from="5to9" to="11to15"/>
+    <trip id="71" depart="71.00" from="16to0" to="7to29"/>
+    <trip id="78" depart="78.00" from="18to2" to="3to28"/>
+    <trip id="86" depart="86.00" from="21to4" to="6to7"/>
+    <trip id="88" depart="88.00" from="10to14" to="15to31"/>
+    <trip id="92" depart="92.00" from="1to2" to="14to15"/>
+    <trip id="95" depart="95.00" from="1to5" to="13to14"/>
+    <trip id="96" depart="96.00" from="16to0" to="8to9"/>
+    <trip id="97" depart="97.00" from="20to0" to="7to29"/>
+    <trip id="101" depart="101.00" from="7to11" to="11to30"/>
+    <trip id="102" depart="102.00" from="21to4" to="12to13"/>
+    <trip id="105" depart="105.00" from="16to0" to="6to7"/>
+    <trip id="106" depart="106.00" from="20to0" to="15to31"/>
+    <trip id="113" depart="113.00" from="21to4" to="7to29"/>
+    <trip id="115" depart="115.00" from="10to11" to="11to30"/>
+    <trip id="118" depart="118.00" from="8to12" to="12to24"/>
+    <trip id="119" depart="119.00" from="2to3" to="3to7"/>
+    <trip id="121" depart="121.00" from="22to8" to="8to9"/>
+    <trip id="123" depart="123.00" from="14to15" to="15to27"/>
+    <trip id="124" depart="124.00" from="4to5" to="13to25"/>
+    <trip id="125" depart="125.00" from="18to2" to="6to10"/>
+    <trip id="127" depart="127.00" from="9to13" to="9to13"/>
+    <trip id="129" depart="129.00" from="16to0" to="8to9"/>
+    <trip id="130" depart="130.00" from="8to12" to="8to12"/>
+    <trip id="131" depart="131.00" from="19to3" to="11to30"/>
+    <trip id="136" depart="136.00" from="4to5" to="9to10"/>
+    <trip id="139" depart="139.00" from="16to0" to="3to7"/>
+    <trip id="140" depart="140.00" from="4to8" to="12to13"/>
+    <trip id="142" depart="142.00" from="21to4" to="8to12"/>
+    <trip id="144" depart="144.00" from="1to5" to="13to14"/>
+    <trip id="145" depart="145.00" from="0to1" to="6to10"/>
+    <trip id="152" depart="152.00" from="11to15" to="11to15"/>
+    <trip id="155" depart="155.00" from="8to12" to="12to13"/>
+    <trip id="156" depart="156.00" from="16to0" to="10to14"/>
+    <trip id="158" depart="158.00" from="1to2" to="3to7"/>
+    <trip id="162" depart="162.00" from="0to1" to="5to9"/>
+    <trip id="166" depart="166.00" from="6to10" to="10to14"/>
+    <trip id="169" depart="169.00" from="20to0" to="13to25"/>
+    <trip id="172" depart="172.00" from="18to2" to="7to29"/>
+    <trip id="174" depart="174.00" from="3to7" to="15to27"/>
+    <trip id="176" depart="176.00" from="9to10" to="10to14"/>
+    <trip id="179" depart="179.00" from="10to14" to="15to31"/>
+    <trip id="180" depart="180.00" from="5to6" to="14to15"/>
+    <trip id="182" depart="182.00" from="1to2" to="3to28"/>
+    <trip id="183" depart="183.00" from="16to0" to="5to6"/>
+    <trip id="188" depart="188.00" from="4to5" to="14to15"/>
+    <trip id="189" depart="189.00" from="18to2" to="7to29"/>
+    <trip id="190" depart="190.00" from="4to8" to="13to25"/>
+    <trip id="191" depart="191.00" from="17to1" to="15to31"/>
+    <trip id="193" depart="193.00" from="11to15" to="15to31"/>
+    <trip id="196" depart="196.00" from="17to1" to="2to6"/>
+    <trip id="197" depart="197.00" from="0to1" to="13to25"/>
+    <trip id="200" depart="200.00" from="20to0" to="12to13"/>
+    <trip id="201" depart="201.00" from="21to4" to="8to12"/>
+    <trip id="202" depart="202.00" from="6to10" to="11to30"/>
+    <trip id="212" depart="212.00" from="21to4" to="12to24"/>
+    <trip id="214" depart="214.00" from="5to6" to="6to10"/>
+    <trip id="215" depart="215.00" from="10to14" to="15to31"/>
+    <trip id="218" depart="218.00" from="16to0" to="7to29"/>
+    <trip id="219" depart="219.00" from="20to0" to="6to7"/>
+    <trip id="220" depart="220.00" from="4to5" to="9to13"/>
+    <trip id="226" depart="226.00" from="21to4" to="13to14"/>
+    <trip id="231" depart="231.00" from="16to0" to="14to15"/>
+    <trip id="234" depart="234.00" from="4to8" to="10to11"/>
+    <trip id="235" depart="235.00" from="1to2" to="2to6"/>
+    <trip id="243" depart="243.00" from="1to5" to="5to9"/>
+    <trip id="248" depart="248.00" from="1to2" to="11to30"/>
+    <trip id="249" depart="249.00" from="20to0" to="11to15"/>
+    <trip id="251" depart="251.00" from="1to2" to="3to28"/>
+    <trip id="254" depart="254.00" from="0to4" to="15to27"/>
+    <trip id="255" depart="255.00" from="13to14" to="14to15"/>
+    <trip id="256" depart="256.00" from="5to9" to="15to27"/>
+    <trip id="257" depart="257.00" from="5to6" to="7to11"/>
+    <trip id="258" depart="258.00" from="16to0" to="10to11"/>
+    <trip id="259" depart="259.00" from="0to1" to="2to6"/>
+    <trip id="260" depart="260.00" from="9to13" to="14to26"/>
+    <trip id="264" depart="264.00" from="0to1" to="11to15"/>
+    <trip id="266" depart="266.00" from="23to12" to="12to13"/>
+    <trip id="269" depart="269.00" from="5to6" to="10to14"/>
+    <trip id="273" depart="273.00" from="9to10" to="15to27"/>
+    <trip id="274" depart="274.00" from="4to8" to="10to11"/>
+    <trip id="279" depart="279.00" from="5to9" to="14to26"/>
+    <trip id="280" depart="280.00" from="1to5" to="14to26"/>
+    <trip id="281" depart="281.00" from="22to8" to="14to15"/>
+    <trip id="282" depart="282.00" from="7to11" to="7to11"/>
+    <trip id="284" depart="284.00" from="3to7" to="7to11"/>
+    <trip id="285" depart="285.00" from="4to8" to="15to31"/>
+    <trip id="287" depart="287.00" from="16to0" to="6to7"/>
+    <trip id="289" depart="289.00" from="1to5" to="5to9"/>
+    <trip id="290" depart="290.00" from="16to0" to="7to29"/>
+    <trip id="292" depart="292.00" from="8to12" to="12to24"/>
+    <trip id="293" depart="293.00" from="20to0" to="3to7"/>
+    <trip id="295" depart="295.00" from="7to11" to="11to30"/>
+    <trip id="298" depart="298.00" from="4to8" to="13to14"/>
+    <trip id="299" depart="299.00" from="0to1" to="9to10"/>
+</routes>
